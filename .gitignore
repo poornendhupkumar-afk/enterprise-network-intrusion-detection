@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Raw datasets
+data/*.csv
+data/*.parquet
+data/*.xlsx
+
+# Trained model artifacts
+*.joblib
+*.pkl
+*.pickle
+
+# Secrets
+.env
+.env.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+submission_validation_baseline.csv
+submissions/submission_eval_test.csv
+submissions/submission_validation.csv
+submissions/submission_validation_advanced.csv
+submissions/submission_val_advanced_full.csv
+submissions/submission_val_baseline.csv
+submissions/submission_val_cost40.csv
+submissions/submission_val_cost40_opt.csv
+submissions/test_predictions.csv
+submissions/test_predict_output.csv
+submissions/verify_predict_cost40.csv
